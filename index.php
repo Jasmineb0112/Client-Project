@@ -64,6 +64,7 @@
 <p>I highly recommend A&M for all of your tax service needs.  Not only did they provide excellent customer service, but they also made sure not to miss a single thing with my return.  Their prices are very reasonable, they're very quick, and they take the time to get to build personal relationships with you.  Thank you A&M!!</p>
 
  <img src="http://placehold.it/200x200" alt="replace me">
+  <img src="imgs/stars.PNG" alt="">
    <img src="http://placehold.it/150x50" alt="replace me">
 <p>I have used larger tax companies until this year when I tried A&M. I cannot say enough about how customer sensitive they are. The customer service was amazing and it cost much less than I was paying before. They did not miss a thing and filing was done in a fraction of the time. Highly recommended. These guys are legit and I will be returning next year. Thank you guys for the great experience.</p>
     
