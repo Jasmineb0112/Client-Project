@@ -1,10 +1,39 @@
 body{
     font-size: 1.2em;    
     color: black;
+    display: flex;
+}
+.top {
+    background-color: rgba(56, 56, 56, 0.32);
+    text-align: right;
+    padding:1.5em;
+}
+ul  {
+list-style: none;
+
+}
+ul > li {
+    display: inline-block;
+}
+ul> li> a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    padding-left: 20px;
+    
+    
+}
+img {
+    max-width: 100%;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
 }
 .flex {
     flex: wrap;
-    width: 90%;
+    width: 40%;
+    flex: flex-start;
 }
 .sixty {
     width: 60%;
@@ -46,4 +75,7 @@ button {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
+}
+.stars {
+    max-width: 
 }
