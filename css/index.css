@@ -1,12 +1,12 @@
-body{
-    font-size: 1.2em;    
-    color: black;
-    display: flex;
+body {
+    margin: 0;
+    font-size: 1.2em;
 }
 .top {
-    background-color: rgba(56, 56, 56, 0.32);
+    background-color: rgb(255, 255, 255);
     text-align: right;
-    padding:1.5em;
+    padding:1em;
+    border-bottom: 2px solid rgb(6,119,189);
 }
 ul  {
 list-style: none;
@@ -18,55 +18,69 @@ ul > li {
 ul> li> a {
     text-decoration: none;
     color: black;
-    font-size: 1.3em;
-    padding-left: 20px;
-    
+    font-size: 1.2em;
+    padding-left: 1.6em;
+    font-family: 'Fira Sans', sans-serif;
     
 }
-img {
-    max-width: 100%;
+.box {
+    width: 90%;
+    justify-content: space-around;
+    justify-content: center;
+    font-size: 1.3em;
+     font-family: 'Raleway', sans-serif;
+    background-color: rgba(116, 121, 128, 0.55);
+    padding: 1.3em;
+}
+.tax {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+    padding-top: 10%;
 }
 .flex-container {
     display: flex;
     justify-content: center;
+    justify-content: space-around;
 }
 .flex {
     flex: wrap;
-    width: 40%;
+  
     flex: flex-start;
+}
+.float {
+    float: left;
+    max-width: 50%;
+}
+.contact {
+    width: 50%;
 }
 .sixty {
     width: 60%;
-    flex: wrap;
+}
+.fifty {
+    width: 28%;
+    justify-content: space-around;
+    text-align: center;
 }
 .thirds {
-    width 30%;
-    flex: wrap;
+    width: 20%;
+    justify-content: space-around;
+    text-align: center;
 }
-
+.three {
+    width: 25%;
+    justify-content: space-around;
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
 .forty {
     width: 30%;
-    flex: wrap;
 }
-
-.container {
-    position: relative;
-    text-align: center;
-    color: black;
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-.parallax {
-    background-image: url(<img src="http://placehold.it/1890x400" alt="replace me">);
-    background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;  
-}
-
 button {
     background-color: rgb(17, 177, 183);
     border: none;
