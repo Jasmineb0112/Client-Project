@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title> Team</title>
         <link rel="stylesheet" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 
 </head>
 <body>

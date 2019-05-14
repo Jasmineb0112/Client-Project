@@ -1,45 +1,12 @@
 body{
+    margin: 0;
     font-size: 1.2em;    
     color: black;
-}
-.flex {
-    flex: wrap;
-    width: 90%;
-}
-.sixty {
-    width: 60%;
-    flex: wrap;
-}
-.thirds {
-    width 30%;
-    flex: wrap;
-}
-
-.forty {
-    width: 30%;
-    flex: wrap;
-}
-
-.container {
-    position: relative;
-    text-align: center;
-    color: black;
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-.parallax {
-    background-image: url(<img src="http://placehold.it/1890x400" alt="replace me">);
-    background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;  
+    font-family: 'Fira Sans', sans-serif;
 }
 
 button {
-    background-color: rgb(17, 177, 183);
+    background-color: rgb(214, 19, 124);
     border: none;
     color: white;
     padding: 14px 15px;
@@ -47,3 +14,4 @@ button {
     text-decoration: none;
     font-size: 16px;
 }
+
