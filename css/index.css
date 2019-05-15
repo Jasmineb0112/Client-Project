@@ -54,16 +54,24 @@ ul> li> a {
     float: left;
     max-width: 50%;
 }
-.contact {
-    width: 50%;
-}
 .sixty {
     width: 60%;
 }
 .fifty {
-    width: 28%;
-    justify-content: space-around;
-    text-align: center;
+    width: 50%;
+    text-align: left;
+}
+.five {
+    width: 15%;
+}
+.ten {
+    width: 20%;
+    padding-bottom: 5%;
+    flex: flex-start;
+}
+.icon {
+     width: 1%;
+    padding-right: 10%;
 }
 .thirds {
     width: 20%;
