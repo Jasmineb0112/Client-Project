@@ -101,7 +101,7 @@
 <div class="flex-container">
    <div class="three">
        <img src="http://placehold.it/200x200" alt="replace me">
-        <p>Very happy with their service. Took the time to look over everything to make sure I was getting the best refund. This was the first year I ever got back a huge refund. I also like how they explained the new laws and how they will effect me from now on. 
+        <p class="left">Very happy with their service. Took the time to look over everything to make sure I was getting the best refund. This was the first year I ever got back a huge refund. I also like how they explained the new laws and how they will effect me from now on. 
         
         Sounds funny, but they even change the temp in the room to make sure I was comfortable! 
         
@@ -113,7 +113,7 @@
     
     <div class="three">
           <img src="http://placehold.it/200x200" alt="replace me">
-             <p>I am amazed on how quickly and accurately A&M Tax Service prepared my taxes.  A line by line review was thoroughly and patiently explained.  With the ever changing tax laws, I trust their tax planning advice for the next year.  Reasonable price and excellent customer service warrants more than 5 stars.</p>
+             <p class="left">I am amazed on how quickly and accurately A&M Tax Service prepared my taxes.  A line by line review was thoroughly and patiently explained.  With the ever changing tax laws, I trust their tax planning advice for the next year.  Reasonable price and excellent customer service warrants more than 5 stars.</p>
            <img src="http://placehold.it/150x50" alt="replace me">
      </div>
     
@@ -121,7 +121,7 @@
         
          <div class="three">
              <img src="http://placehold.it/200x200" alt="replace me">
-                 <p>John is extremely knowledgeable and helpful. He is always reliable and accommodating to his clients. He cuts out wasted time and paperwork that I’ve dealt with at other tax prep companies that overcharge for nice offices and “peace of mind”. He gets to the point and shows you your options. When I had audits from previous companies filings, he fixed the mess. Highly recommend</p>
+                 <p class="left">John is extremely knowledgeable and helpful. He is always reliable and accommodating to his clients. He cuts out wasted time and paperwork that I’ve dealt with at other tax prep companies that overcharge for nice offices and “peace of mind”. He gets to the point and shows you your options. When I had audits from previous companies filings, he fixed the mess. Highly recommend</p>
                <img src="http://placehold.it/150x50" alt="replace me">
          </div>
     </div>
@@ -129,21 +129,21 @@
 <div class="flex-container">
    <div class="three">
          <img src="http://placehold.it/200x200" alt="replace me">
-        <p>John is very professional and makes your tax experience easy. He's very detailed and takes time explaining everything. We will definitely be back next year!!</p>
+        <p class="left">John is very professional and makes your tax experience easy. He's very detailed and takes time explaining everything. We will definitely be back next year!!</p>
           <img src="http://placehold.it/150x50" alt="replace me">
     </div>
     
     
     <div class="three">
           <img src="http://placehold.it/200x200" alt="replace me">
-             <p>Very professional, timely, and efficient. I have been seeing John for taxes for two years now and it’s always been a seamless process. Highly recommend!</p>
+             <p class="left">Very professional, timely, and efficient. I have been seeing John for taxes for two years now and it’s always been a seamless process. Highly recommend!</p>
                <img src="http://placehold.it/150x50" alt="replace me">
      </div>
     
         
          <div class="three">
              <img src="http://placehold.it/200x200" alt="replace me">
-                 <p>Fantastic service, great price! They get you what you are entitled to!
+                 <p class="left">Fantastic service, great price! They get you what you are entitled to!
                  </p>
                <img src="http://placehold.it/150x50" alt="replace me">
          </div>
