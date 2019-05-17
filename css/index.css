@@ -5,6 +5,9 @@ body {
 img {
     max-width: 100%;
 }
+p {
+    text-indent: 35px;
+}
 .top {
     background-color: rgb(255, 255, 255);
     text-align: right;
@@ -27,13 +30,26 @@ ul> li> a {
     
 }
 .box {
-    width: 90%;
+    width: 100%;
     justify-content: space-around;
     justify-content: center;
-    font-size: 1.3em;
+    font-size: 1.5em;
      font-family: 'Raleway', sans-serif;
-    background-color: rgba(41, 211, 80, 0.55);
+    background-color: rgba(81, 88, 83, 0.3);
     padding: 1.3em;
+}
+.formbox {
+    width: 40%;
+    justify-content: center;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(92, 155, 195, 0.7);
+    
+}
+.half {
+    width: 40%;
+    text-align: center;
+    justify-content: space-around;
 }
 .tax {
     font-family: 'Raleway', sans-serif;
@@ -44,6 +60,10 @@ ul> li> a {
     display: flex;
     justify-content: center;
     justify-content: space-around;
+}
+.flex-foot {
+    flex: wrap;
+    flex-direction: column;
 }
 .flex {
     flex: wrap;
@@ -58,12 +78,18 @@ ul> li> a {
     width: 60%;
 }
 .fifty {
-    width: 50%;
-    text-align: left;
+    width: 28%;
+    text-align: center;
 }
 .five {
     width: 15%;
 }
+.fourty {
+    width: 25%;
+    flex: flex-start;
+    justify-content: space-around;
+}
+
 .ten {
     width: 20%;
     padding-bottom: 5%;
@@ -77,6 +103,7 @@ ul> li> a {
     width: 20%;
     justify-content: space-around;
     text-align: center;
+    padding-top: 1%;
 }
 .three {
     width: 25%;
@@ -91,6 +118,9 @@ ul> li> a {
 }
 .left {
     text-align: left;
+        background-color: skyblue;
+    
+
 }
 .right {
     text-align: right;
@@ -99,7 +129,7 @@ ul> li> a {
     width: 30%;
 }
 button {
-    background-color: rgb(17, 177, 183);
+    background-color: rgb(92, 155, 195);
     border: none;
     color: white;
     padding: 14px 15px;
@@ -118,18 +148,58 @@ button {
     left: 50%;
 }
 .parallax {
-    background-image:url(/imgs/tax-temp.png);
-    min-height:400px;
+    background-image:url(imgs/tax-temp.png);
+    min-height:300px;
     background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;  
+   
 }
 
 
 
+.foot {
+    background-color:  rgb(6,119,189);
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 5%;
+}
+.ten {
+    width: 20%;
+    padding-bottom: 5%;
+    flex: flex-start;
+}
+icon {
+    width: 1%;
+    padding-right: 10%;
+}
 
+.centertext {
+    padding: 2%;
+    background-color: rgba(136, 189, 32, 0.7);
+    font-size: 1.5em;
+    position: absolute;
+    transform: translate(-50%, -115%);
+    top: 50%;
+    left: 50%;
+    font-family: 'Abel', sans-serif;
+    color: white;
+}
 
+form {
+    background-color: rgba(92, 155, 195, 0.7);
+    width: 50%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 40%;
+    padding-left: 40%;
+    
+}
+
+.padding {
+    padding-top: 3%;
+}
 
 
 

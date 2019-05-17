@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Contact</title>
         <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Raleway" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
@@ -20,6 +20,12 @@
         <!-- -->
 <!-- the image is for the appoinment and the team page, the h1 is going on top of the image -->
      <img src="http://placehold.it/1890x400" alt="replace me">
+     <div class="map">
+ <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=    YOUR_API_KEY   &callback=initMap">
+</script>   
+</div>
+
 <h1>CONTACT US</h1>
 <div class="flex-container">
     
