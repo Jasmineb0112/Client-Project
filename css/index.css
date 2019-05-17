@@ -101,9 +101,11 @@ ul> li> a {
 }
 .thirds {
     width: 20%;
+    background-color: rgba(136, 189, 32, 0.26);
     justify-content: space-around;
     text-align: center;
     padding-top: 1%;
+    padding: 1%;
 }
 .three {
     width: 25%;
@@ -118,9 +120,7 @@ ul> li> a {
 }
 .left {
     text-align: left;
-        background-color: skyblue;
-    
-
+        background-color: rgba(221, 128, 21, 0.31);
 }
 .right {
     text-align: right;
@@ -200,7 +200,47 @@ form {
 .padding {
     padding-top: 3%;
 }
+.pad {
+    padding: 2%;
+}
 
+* {box-sizing: border-box}
+
+.slideshow-container {
+  position: relative;
+  background: white;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
 
 
 

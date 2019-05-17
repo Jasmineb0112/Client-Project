@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Appointment</title>
         <link rel="stylesheet" href="css/index.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway|Abel" rel="stylesheet">
@@ -94,6 +95,40 @@
                          <input type="submit" value="Submit"><br>
                      </form>
                   </div>
- 
+ <div class="flex-foot">
+<div class="foot flex-container">
+ <footer>
+<div class="ten"><i class="fab fa-facebook-square fa-3x"></i></div>
+<div class="ten"><i class="fab fa-instagram fa-3x"></i></div>
+<div class="ten"><i class="fab fa-linkedin fa-3x"></i></div> 
+
+<div class="fourty">
+    <h2>Pages</h2>
+    <ul>
+                <li><a href="index.php">Home</a></li>
+                 <br>
+                  <li><a href="team.php">Team</a></li>             <br>
+    
+               <li><a href="appointment.php">Appointments</a></li>             <br>
+    
+               <li><a href="contact.php">Contact</a></li>             <br>
+    
+               </ul>
+</div>
+<br>
+
+<div class="fourty">
+    <h3>Email:</h3>
+    <p>taxserviceam@gmail.com</p>
+    <h3>Phone Number:</h3>
+    <p>(559) 903-8550</p>
+    <h3>Address:</h3>
+    <p>473 N. Fresno St. 93701</p>
+    <p>Fresno, CA</p>
+    <img src="http://placehold.it/200x50" alt="replace me">
+</div>
+</footer>
+ </div>
+    </div>
 </body>
 </html>

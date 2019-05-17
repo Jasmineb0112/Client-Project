@@ -2,11 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Abel|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 <body>
 
  <div class="top">
@@ -51,19 +80,19 @@
    <div class="flex-container">
         <div class="thirds">
              <i class="fas fa-envelope-open-text fa-5x"></i>
-              <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quisquam ipsa, iste ea nam aperiam culpa incidunt suscipit repellendus accusamus fugiat quidem fuga, est nulla, modi ad omnis repudiandae dolores?</p>
+              <p class="left pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quisquam ipsa, iste ea nam aperiam culpa incidunt suscipit repellendus accusamus fugiat quidem fuga, est nulla, modi ad omnis repudiandae dolores?</p>
       
           </div>
           
           
        <div class="thirds">
            <i class="fas fa-folder-open fa-5x"></i>
-            <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quisquam ipsa, iste ea nam aperiam culpa incidunt suscipit repellendus accusamus fugiat quidem fuga, est nulla, modi ad omnis repudiandae dolores?</p>
+            <p class="left pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quisquam ipsa, iste ea nam aperiam culpa incidunt suscipit repellendus accusamus fugiat quidem fuga, est nulla, modi ad omnis repudiandae dolores?</p>
              </div>
         
        <div class="thirds">
             <i class="fas fa-walking fa-5x"></i>
-            <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quisquam ipsa, iste ea nam aperiam culpa incidunt suscipit repellendus accusamus fugiat quidem fuga, est nulla, modi ad omnis repudiandae dolores?</p>
+            <p class="left pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quisquam ipsa, iste ea nam aperiam culpa incidunt suscipit repellendus accusamus fugiat quidem fuga, est nulla, modi ad omnis repudiandae dolores?</p>
           
         </div>
         </div>
@@ -82,9 +111,13 @@
 <!-- 9 customer reviews -->
 <!-- 9 customer reviews -->
 
-<!-- the images on the bottom of the images are the stars for the reviews-->
+<!-- slideshow-->
 
-<div class="flex-container">
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+ <div class="flex-container">
          <div class="three">
   <span style="color:rgba(34, 201, 53, 0.67);"><i class="fas fa-user fa-7x" ></i>
              </span>
@@ -108,9 +141,10 @@
 
      </div>
     </div>
-    
-    
-<div class="flex-container">
+</div>
+
+<div class="mySlides">
+ <div class="flex-container">
    <div class="three">
   <span style="color:rgba(34, 201, 53, 0.67);"><i class="fas fa-user fa-7x" ></i>
              </span>
@@ -143,8 +177,10 @@
 
          </div>
     </div>
+</div>
 
-<div class="flex-container">
+<div class="mySlides">
+  <div class="flex-container">
    <div class="three">
   <span style="color:rgba(34, 201, 53, 0.67);"><i class="fas fa-user fa-7x" ></i>
              </span>        
@@ -173,9 +209,54 @@
 
          </div>
 </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+
+
+
+
 
 <!--  -->
+<div class="flex-foot">
+<div class="foot flex-container">
+ <footer>
+<div class="ten"><i class="fab fa-facebook-square fa-3x"></i></div>
+<div class="ten"><i class="fab fa-instagram fa-3x"></i></div>
+<div class="ten"><i class="fab fa-linkedin fa-3x"></i></div> 
 
+<div class="fourty">
+    <h2>Pages</h2>
+    <ul>
+                <li><a href="index.php">Home</a></li>
+                 <br>
+                  <li><a href="team.php">Team</a></li>             <br>
+    
+               <li><a href="appointment.php">Appointments</a></li>             <br>
+    
+               <li><a href="contact.php">Contact</a></li>             <br>
+    
+               </ul>
+</div>
+<br>
+
+<div class="fourty">
+    <h3>Email:</h3>
+    <p>taxserviceam@gmail.com</p>
+    <h3>Phone Number:</h3>
+    <p>(559) 903-8550</p>
+    <h3>Address:</h3>
+    <p>473 N. Fresno St. 93701</p>
+    <p>Fresno, CA</p>
+    <img src="http://placehold.it/200x50" alt="replace me">
+</div>
+</footer>
+ </div>
+    </div>
 
 
 

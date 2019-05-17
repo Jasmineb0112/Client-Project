@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Team</title>
         <link rel="stylesheet" href="css/index.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway|Abel" rel="stylesheet">
@@ -45,9 +46,44 @@
 
 <div class="flex-container">
     <div class="box ">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquam cupiditate, corporis, ab inventore, vel excepturi optio nihil ipsa rem saepe sint placeat accusantium. Vel blanditiis enim maxime, illo iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione hic ipsam iste! Odit aspernatur voluptatem blanditiis rerum illo maxime impedit harum repellendus veniam, ducimus architecto nostrum sint voluptatum qui mollitia!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos facere nulla numquam aut maiores, magni omnis, qui libero minima beatae aspernatur, voluptatum obcaecati veritatis cumque autem necessitatibus animi eveniet similique!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est unde quia officiis repudiandae libero, iure ullam. Facilis eligendi quia cupiditate quod explicabo, quam doloribus voluptatibus, mollitia assumenda quaerat beatae nisi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil veritatis esse, fugiat assumenda odit corrupti quisquam sequi, possimus enim recusandae minus numquam! Nemo error explicabo ipsum magnam, assumenda mollitia quas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, reprehenderit at veritatis iusto quos ratione ullam exercitationem neque veniam eius beatae labore fugit perferendis aliquam. Voluptatum quidem hic similique minus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sunt, laudantium laboriosam nihil rem asperiores impedit nobis reprehenderit optio, iusto voluptatem at et culpa? Quis ea dolor inventore tenetur nesciunt.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem voluptatum excepturi, officiis natus cum hic ut modi quaerat facilis at error magni eligendi accusamus eius, possimus tempora placeat quo ipsa.</p>
     </div>
 </div>
+<div class="flex-foot">
+<div class="foot flex-container">
+ <footer>
+<div class="ten"><i class="fab fa-facebook-square fa-3x"></i></div>
+<div class="ten"><i class="fab fa-instagram fa-3x"></i></div>
+<div class="ten"><i class="fab fa-linkedin fa-3x"></i></div> 
+
+<div class="fourty">
+    <h2>Pages</h2>
+    <ul>
+                <li><a href="index.php">Home</a></li>
+                 <br>
+                  <li><a href="team.php">Team</a></li>             <br>
+    
+               <li><a href="appointment.php">Appointments</a></li>             <br>
+    
+               <li><a href="contact.php">Contact</a></li>             <br>
+    
+               </ul>
+</div>
+<br>
+
+<div class="fourty">
+    <h3>Email:</h3>
+    <p>taxserviceam@gmail.com</p>
+    <h3>Phone Number:</h3>
+    <p>(559) 903-8550</p>
+    <h3>Address:</h3>
+    <p>473 N. Fresno St. 93701</p>
+    <p>Fresno, CA</p>
+    <img src="http://placehold.it/200x50" alt="replace me">
+</div>
+</footer>
+ </div>
+    </div>
 </body>
 
 </html>
