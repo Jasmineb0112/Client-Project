@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Appointment</title>
         <link rel="stylesheet" href="css/index.css">
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Abel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Abel" rel="stylesheet">
 
 </head>
 <body>
@@ -87,7 +87,7 @@
                                 placeholder="(559)555-5555" maxlength="15" required>
                 <br>
                             
-                    <!-- this is going to be the times for appointmetns-->       
+                    <!-- this is going to be the times for appointments-->       
                                   <label for="sex">Gender:</label> <br> 
                                  <input type="radio" name="sex"
                                  value="M">Male<br>

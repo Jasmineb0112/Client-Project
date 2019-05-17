@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title> Team</title>
         <link rel="stylesheet" href="css/index.css">
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Abel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Abel" rel="stylesheet">
 
 </head>
 <body>
@@ -28,12 +28,14 @@
 <div class="flex-container">
      <div class="fifty">
         <img src="imgs/john-temp.png" alt="">
+        <img src="http://placehold.it/500x332" alt="replace me">
         
              <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae, ad, autem adipisci maxime cum asperiores. Saepe enim omnis atque facere blanditiis voluptate ea, quod possimus ex. Deserunt, eaque, cumque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse et accusantium quos iusto ea ad aspernatur a, fugiat totam consequuntur! Ducimus quas rerum eius, sapiente veritatis deserunt aliquam quisquam. Error.</p>
      </div>
     
     <div class="fifty">
        <img src="imgs/frank-temp.jpg" alt="">
+       <img src="http://placehold.it/500x332" alt="replace me">
         
         <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae, ad, autem adipisci maxime cum asperiores. Saepe enim omnis atque facere blanditiis voluptate ea, quod possimus ex. Deserunt, eaque, cumque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse et accusantium quos iusto ea ad aspernatur a, fugiat totam consequuntur! Ducimus quas rerum eius, sapiente veritatis deserunt aliquam quisquam. Error.</p>
     </div>
