@@ -20,9 +20,17 @@
     </div>
         <!-- the image is for the appoinment and the team page, the h1 is going on top of the image -->
         
-     <div class="centertext text">
-           <h1>MAKE AN APPOINTMENT</h1>
-            </div>
+    <span class="full-text">
+               <div class="centertext text">
+               <h1>MAKE AN APPOINTMENT</h1>
+                </div>
+                </span>
+                
+     <span class="short-text">
+               <div class="centertext text">
+               <h1>APPOINTMENTS</h1>
+                </div>
+                </span>
             <img src="imgs/header-img2.jpg" alt="">
 <!-- the p is just text-->
 <!--  it's the we are dedicated top helping you thing...-->
@@ -40,21 +48,39 @@
 <br>
 <br>
 <br>
-<div class="flex-container">
-     <div class="half">
-         <img src="./imgs/amjohn500x200.jpg" alt="">
-         <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae, ad, autem adipisci maxime cum asperiores. Saepe enim omnis atque facere blanditiis voluptate ea, quod possimus ex. Deserunt, eaque, cumque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse et accusantium quos iusto ea ad aspernatur a, fugiat totam consequuntur! Ducimus quas rerum eius, sapiente veritatis deserunt aliquam quisquam. Error.</p>
-         <button>Make an Appointment with John</button>
+<span class="full-text">
+        <div class="flex-container">
+         <div class="half">
+             <img src="./imgs/amjohn500x200.jpg" alt="">
+             <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae, ad, autem adipisci maxime cum asperiores. Saepe enim omnis atque facere blanditiis voluptate ea, quod possimus ex. Deserunt, eaque, cumque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse et accusantium quos iusto ea ad aspernatur a, fugiat totam consequuntur! Ducimus quas rerum eius, sapiente veritatis deserunt aliquam quisquam. Error.</p>
+             <button>Make an Appointment with John</button>
+         </div>
+         <!-- button will send you to form-->
+         
+         <!-- Pictures are drawn-->
+        <div class="half">
+             <img src="./imgs/amfrank500x200.jpg" alt="">
+             <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae, ad, autem adipisci maxime cum asperiores. Saepe enim omnis atque facere blanditiis voluptate ea, quod possimus ex. Deserunt, eaque, cumque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse et accusantium quos iusto ea ad aspernatur a, fugiat totam consequuntur! Ducimus quas rerum eius, sapiente veritatis deserunt aliquam quisquam. Error.</p>
+             <button>Make an Appointment with Frank</button>
+         </div>
      </div>
-     <!-- button will send you to form-->
+     </span>
      
-     <!-- Pictures are drawn-->
-    <div class="half">
-         <img src="./imgs/amfrank500x200.jpg" alt="">
-         <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae, ad, autem adipisci maxime cum asperiores. Saepe enim omnis atque facere blanditiis voluptate ea, quod possimus ex. Deserunt, eaque, cumque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse et accusantium quos iusto ea ad aspernatur a, fugiat totam consequuntur! Ducimus quas rerum eius, sapiente veritatis deserunt aliquam quisquam. Error.</p>
-         <button>Make an Appointment with Frank</button>
-     </div>
- </div>
+     <span class="short-text">
+         <div class="half">
+             <img src="./imgs/amjohn500x200.jpg" alt="">
+             <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae, ad, autem adipisci maxime cum asperiores. Saepe enim omnis atque facere blanditiis voluptate ea, quod possimus ex. Deserunt, eaque, cumque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse et accusantium quos iusto ea ad aspernatur a, fugiat totam consequuntur! Ducimus quas rerum eius, sapiente veritatis deserunt aliquam quisquam. Error.</p>
+             <button>Make an Appointment with John</button>
+         </div>
+         <!-- button will send you to form-->
+         
+         <!-- Pictures are drawn-->
+        <div class="half">
+             <img src="./imgs/amfrank500x200.jpg" alt="">
+             <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae, ad, autem adipisci maxime cum asperiores. Saepe enim omnis atque facere blanditiis voluptate ea, quod possimus ex. Deserunt, eaque, cumque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse et accusantium quos iusto ea ad aspernatur a, fugiat totam consequuntur! Ducimus quas rerum eius, sapiente veritatis deserunt aliquam quisquam. Error.</p>
+             <button>Make an Appointment with Frank</button>
+         </div>
+     </span>
 <!-- button will send you to form-->
 
 
@@ -63,38 +89,40 @@
 <br>
 <br>
   
-   <div class="form">
-                      <form action="info.php" method="post">
-                       
-                         <label for="fn">Full Name:</label>  
-                         <input type="text" name="fn" placeholder="John D" required><br>
-                         
-                         
-                         <label for="ad">Address:</label>  
-                         <input type="text" name="ad" required><br>
-                         
-                         
-                         <label for="email">Email Address:</label>
-                        <input type="email" name="email"
-                        placeholder="address@domain.com" required><br>
-                         
-                         <label for="phone">Phone Number:</label>
-                        <input type="number" name="phone"
-                        placeholder="(559)555-5555" maxlength="15" required><br>
-                        
-                <!-- this is going to be the times for appointmetns-->       
-                              <label for="sex">Gender:</label> <br> 
-                             <input type="radio" name="sex"
-                             value="M">Male<br>
-                             <input type="radio" name="sex"
-                             value="F">Female<br>
-                             <input type="radio" name="sex"
-                             value="O">Other<br>
+  <div class="flex-container">
+        <div class="form">
+                          <form action="info.php" method="post">
+                           
+                             <label for="fn">Full Name:</label>  
+                             <input type="text" name="fn" placeholder="John D" required><br>
                              
-            
-                         <input type="submit" value="Submit"><br>
-                     </form>
-                  </div>
+                             
+                             <label for="ad">Address:</label>  
+                             <input type="text" name="ad" required><br>
+                             
+                             
+                             <label for="email">Email Address:</label>
+                            <input type="email" name="email"
+                            placeholder="address@domain.com" required><br>
+                             
+                             <label for="phone">Phone Number:</label>
+                            <input type="number" name="phone"
+                            placeholder="(559)555-5555" maxlength="15" required><br>
+                            
+                    <!-- this is going to be the times for appointmetns-->       
+                                  <label for="sex">Gender:</label> <br> 
+                                 <input type="radio" name="sex"
+                                 value="M">Male<br>
+                                 <input type="radio" name="sex"
+                                 value="F">Female<br>
+                                 <input type="radio" name="sex"
+                                 value="O">Other<br>
+                                 
+                
+                             <input type="submit" value="Submit"><br>
+                         </form>
+                      </div>
+   </div>
  <div class="flex-foot">
 <div class="foot flex-container">
  <footer>
