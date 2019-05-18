@@ -8,6 +8,9 @@ img {
 p {
     text-indent: 35px;
 }
+.top a:hover {
+    color:#7d8083; 
+}
 .top {
     background-color: rgb(255, 255, 255);
     text-align: right;
@@ -28,6 +31,10 @@ ul> li> a {
     padding-left: 1.6em;
     font-family: 'Fira Sans', sans-serif;
     
+}
+
+.font {
+        font-family: 'Raleway', sans-serif;
 }
 .box {
     width: 100%;
@@ -63,7 +70,7 @@ ul> li> a {
 }
 .flex-foot {
     flex: wrap;
-    flex-direction: column;
+    flex-direction: row;
 }
 .flex {
     flex: wrap;
@@ -101,10 +108,10 @@ ul> li> a {
 }
 .thirds {
     width: 20%;
-    background-color: rgba(136, 189, 32, 0.26);
+    background-color: rgba(6, 119, 189, 0.69);
     justify-content: space-around;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 3s%;
     padding: 1%;
 }
 .three {
@@ -120,7 +127,7 @@ ul> li> a {
 }
 .left {
     text-align: left;
-        background-color: rgba(221, 128, 21, 0.31);
+        background-color:  rgba(45, 130, 183, 0.29);
 }
 .right {
     text-align: right;
@@ -129,13 +136,23 @@ ul> li> a {
     width: 30%;
 }
 button {
-    background-color: rgb(92, 155, 195);
+    background-color:rgba(136, 189, 32);
     border: none;
     color: white;
     padding: 14px 15px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
+}
+.button {
+    text-decoration: none;
+    background-color:rgba(136, 189, 32);
+    border: none;
+    color: white;
+    padding: 14px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
 }
 .container {
     position: relative;
@@ -161,9 +178,11 @@ button {
 
 .foot {
     background-color:  rgb(6,119,189);
-    justify-content: flex-start;
-    flex-direction: column;
-    padding: 5%;
+   
+    padding: 3%;
+}
+.quarter {
+    width: 20%;
 }
 .ten {
     width: 20%;
@@ -240,15 +259,133 @@ form {
   color: white;
 }
 
+.full-text {
+    display: inline-block;
+}
+.short-text {
+    display: none;
+}
+.map {
+    height: 100%;
+}
+@media only screen and (max-width:1024px){
+    .top {
+        font-size: 1.2em;
+    }
+    .thirds {
+        width: 30%;
+    }
+    .flex {
+        width: 50%;
+    }
+    .box {
+        width: 90%;
+        font-size: 1.3em;
+        padding: 1.4em;
+}
+    .three {
+        width: 30%;
+    }
+    .centertext {
+        padding: 1%;
+        font-size: 1.4em;
+        top: 48%;
+        left: 50%;
+}
+    .text {
+        padding-left: 10%;
+        top: 51.5%;
+        left: 50%;
+    }
+    .fifty {
+        width: 50%;
+    }
+    .font {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1em;
+}
+    .five {
+        width: 3%;
+    }
+    .quarter {
+        width: 28%;
+    }
+}
+@media only screen and (max-width:640px){
+       .full-text {
+    display: none;
+}
+.short-text {
+    display: inline-block;
+}
+    .top {
+        font-size: 1.2em;
+       padding: none;
+    }
+    .tax {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    padding-top: 10%;
+}
+    .thirds {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .three {
+        width: 90%;
+    }
+    .flex {
+        width: 100%;
+    }
+    .box {
+        font-size: 1.2em;
+        padding: 1.2em;
+}
+    
+    .centertext {
+        padding: 0%;
+        background-color: rgba(136, 189, 32, 0.7);
+        font-size: 1.2em;
+        position: absolute;
+        transform: translate(-50%, -115%);
+        top: 50%;
+        left: 50%;
+        font-family: 'Abel', sans-serif;
+}
+    .text {
+        padding: 2%;
+        top: 51.5%;
+        left: 50%;
+    }
+    .fifty {
+        width: 50%;
+    }
+    
+}
+.half {
+    width: 100%;
+    padding-bottom: 10%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.icon {
+    width: 1%;
+    padding: 0%;
+}
+    
+  .ten {
+    width: 10%;
+    padding-bottom: 0%;
+}  
+    .five {
+        width: 3%;
+    }
+    .quarter {
+        width: 28%;
+    }
+.font {
+    font-size: 1em;
+}
+.fab fa-linkedin fa-3x {
+display:block;
+}
+}
