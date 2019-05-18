@@ -31,7 +31,7 @@ src="https://maps.googleapis.com/maps/api/js?key=    YOUR_API_KEY   &callback=in
 <div class="flex-container">
     
     <div class="fifty">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quo sunt dolores quisquam voluptatibus et nam, numquam beatae ipsam autem iusto, minus! Aliquam est illo ex vero, inventore facere! Enim!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt veniam eaque nemo quaerat, ad placeat optio obcaecati autem maxime aliquam, nam expedita quis repellendus hic dicta quibusdam deleniti voluptatibus quas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eius repudiandae laborum, fuga, nobis asperiores odio similique ipsum provident ut porro, distinctio incidunt, voluptatibus sapiente modi quod recusandae? Quae, dolor.</p>
+        <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quo sunt dolores quisquam voluptatibus et nam, numquam beatae ipsam autem iusto, minus! Aliquam est illo ex vero, inventore facere! Enim!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt veniam eaque nemo quaerat, ad placeat optio obcaecati autem maxime aliquam, nam expedita quis repellendus hic dicta quibusdam deleniti voluptatibus quas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eius repudiandae laborum, fuga, nobis asperiores odio similique ipsum provident ut porro, distinctio incidunt, voluptatibus sapiente modi quod recusandae? Quae, dolor.</p>
     </div>
 <!-- add the icons of facebook, insta, and linkedin-->
 <div class="flex-container five"> 
