@@ -50,7 +50,7 @@
      
      <!-- Pictures are drawn-->
     <div class="half">
-         <img src="./imgs/amjohn500x200.jpg" alt="">
+         <img src="./imgs/amfrank500x200.jpg" alt="">
          <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae, ad, autem adipisci maxime cum asperiores. Saepe enim omnis atque facere blanditiis voluptate ea, quod possimus ex. Deserunt, eaque, cumque!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse et accusantium quos iusto ea ad aspernatur a, fugiat totam consequuntur! Ducimus quas rerum eius, sapiente veritatis deserunt aliquam quisquam. Error.</p>
          <button>Make an Appointment with Frank</button>
      </div>
