@@ -48,7 +48,7 @@ src="https://maps.googleapis.com/maps/api/js?key=    YOUR_API_KEY   &callback=in
 <div class="ten">
           <div class="icon">
                 <i class="fab fa-linkedin fa-3x  icon"></i>
-           <p>Follow us on</p>
+           <p>Follow</p>
            </div>
           
             </div>
