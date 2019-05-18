@@ -28,33 +28,50 @@ src="https://maps.googleapis.com/maps/api/js?key=    YOUR_API_KEY   &callback=in
 </div>
 
 <h1>CONTACT US</h1>
-<div class="flex-container">
+<span class="full-text">
+       <div class="flex-container">
+        
+        <div class="fifty">
+            <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quo sunt dolores quisquam voluptatibus et nam, numquam beatae ipsam autem iusto, minus! Aliquam est illo ex vero, inventore facere! Enim!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt veniam eaque nemo quaerat, ad placeat optio obcaecati autem maxime aliquam, nam expedita quis repellendus hic dicta quibusdam deleniti voluptatibus quas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eius repudiandae laborum, fuga, nobis asperiores odio similique ipsum provident ut porro, distinctio incidunt, voluptatibus sapiente modi quod recusandae? Quae, dolor.</p>
+        </div>
+    <!-- add the icons of facebook, insta, and linkedin-->
+    <div class="flex-container five"> 
     
-    <div class="fifty">
-        <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quo sunt dolores quisquam voluptatibus et nam, numquam beatae ipsam autem iusto, minus! Aliquam est illo ex vero, inventore facere! Enim!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt veniam eaque nemo quaerat, ad placeat optio obcaecati autem maxime aliquam, nam expedita quis repellendus hic dicta quibusdam deleniti voluptatibus quas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eius repudiandae laborum, fuga, nobis asperiores odio similique ipsum provident ut porro, distinctio incidunt, voluptatibus sapiente modi quod recusandae? Quae, dolor.</p>
-    </div>
-<!-- add the icons of facebook, insta, and linkedin-->
-<div class="flex-container five"> 
-
-
-<div class="icon">
-     <i class="fab fa-facebook-square fa-3x  "></i>
-      <i class="fab fa-instagram fa-3x  "></i>
-
-       </div>  
-           
+    
+    <div class="icon">
+         <i class="fab fa-facebook-square fa-3x  "></i>
+          <i class="fab fa-instagram fa-3x  "></i>
+    
+           </div>  
                
-       
-<div class="ten">
-          <div class="icon">
-                <i class="fab fa-linkedin fa-3x  icon"></i>
-           <p>Follow</p>
-           </div>
-          
-            </div>
-            </div>
-</div>
+                   
+           
+    <div class="ten">
+              <div class="icon">
+                    <i class="fab fa-linkedin fa-3x  icon"></i>
+               <p>Follow</p>
+               </div>
+              
+                </div>
+                </div>
+    </div>
+    </span>
 
+<span class="half-text">
+        
+        <div class="half">
+            <p class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quo sunt dolores quisquam voluptatibus et nam, numquam beatae ipsam autem iusto, minus! Aliquam est illo ex vero, inventore facere! Enim!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt veniam eaque nemo quaerat, ad placeat optio obcaecati autem maxime aliquam, nam expedita quis repellendus hic dicta quibusdam deleniti voluptatibus quas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eius repudiandae laborum, fuga, nobis asperiores odio similique ipsum provident ut porro, distinctio incidunt, voluptatibus sapiente modi quod recusandae? Quae, dolor.</p>
+        </div>
+    <!-- add the icons of facebook, insta, and linkedin-->
+    <div class="flex-container "> 
+    
+         <i class="fab fa-facebook-square fa-3x  "></i>
+          <i class="fab fa-instagram fa-3x  "></i>
+          <i class="fab fa-linkedin fa-3x  icon"></i>
+          <p>Follow us on</p>
+              
+                </div>
+    </span>
 
 
 <div class="flex-container">
