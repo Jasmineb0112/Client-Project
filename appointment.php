@@ -20,7 +20,7 @@
     </div>
         <!-- the image is for the appoinment and the team page, the h1 is going on top of the image -->
         
-     <div class="centertext">
+     <div class="centertext text">
            <h1>MAKE AN APPOINTMENT</h1>
             </div>
             <img src="imgs/header-img2.jpg" alt="">
